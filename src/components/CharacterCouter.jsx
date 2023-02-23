@@ -1,9 +1,5 @@
-import { atom, selector, useRecoilState, useRecoilValue } from 'recoil';
-
-const textState = atom({
-  key: 'textState', // unique ID (with respect to other atoms/selectors)
-  default: '', // default value (aka initial value)
-});
+import { selector, useRecoilState, useRecoilValue } from 'recoil';
+import { textState } from '../recoil/atoms';
 
 function CharacterCouter() {
   return (

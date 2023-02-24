@@ -1,11 +1,13 @@
-import { RecoilRoot } from 'recoil';
+import { RecoilRoot } from "recoil";
 
-import CharacterCouter from './components/CharacterCouter';
+import CharacterCouter from "./components/CharacterCouter/CharacterCouter";
+import TodoList from "./components/TodoList/TodoList";
 
 function App() {
   return (
     <RecoilRoot>
-      <CharacterCouter />
+      {/* <CharacterCouter /> */}
+      <TodoList />
     </RecoilRoot>
   );
 }
